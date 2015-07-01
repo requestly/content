@@ -5,13 +5,9 @@ locale: en_US
 description: Chrome Extension to modify HTTP(s) Requests
 logo: site-logo.png
 search: true
-env: dev
-config:
-  dev:
-    url: http://localhost:4000
-  prod:
-    url: http://requestly.github.io/blog
-url: http://localhost:4000
+env: prod
+baseurl: /public
+url: http://requestly.github.io
 
 # Jekyll configuration
 

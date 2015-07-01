@@ -6,7 +6,8 @@ search_omit: true
 ---
 
 <ul class="post-list">
-{% for post in site.categories.articles %} 
+{% for post in site.categories.articles %}
+  {% if post.sample and site.showSample != true %} loop entered {% continue %} {% endif %}
   <li>
     <article>
       <a href="{{ site.url }}{{ post.url }}">
