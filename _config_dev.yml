@@ -1,6 +1,5 @@
 # Site wide configuration in dev Environment
 
-baseurl: ''
 url: http://localhost:4000
 env: dev
 showSample: true
