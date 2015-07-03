@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Requestly Articles Archive
+title: Archive List
 excerpt: "An archive of articles sorted by date."
 search_omit: true
 ---
