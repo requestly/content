@@ -8,6 +8,7 @@ search: true
 env: prod
 baseurl: /public
 url: http://requestly.github.io
+chrome_store_url: http://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa
 
 # Jekyll configuration
 
@@ -36,7 +37,7 @@ owner:
   name: Sachin Jain
   avatar: bio-photo-sachin.jpg
   email: sachinjain024@gmail.com
-  disqus-shortname: blunderboy
+  disqus-shortname: requestly
   twitter: #sachinjain024
   facebook: #sachinjain024
   github: #blunderboy

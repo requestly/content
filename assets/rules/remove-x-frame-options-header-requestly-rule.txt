@@ -1,0 +1,1 @@
+[{"creationDate":1435893344873,"description":"For all ulrs which contain \"yahoo\"","id":"Headers_1435893344873","name":"Remove X-Frame-Options Headers","pairs":[{"header":"X-Frame-Options","source":{"key":"Url","operator":"Contains","value":"yahoo"},"target":"Response","type":"Remove","value":""}],"ruleType":"Headers","status":"Active"}]
