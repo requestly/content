@@ -6,7 +6,7 @@ description: Chrome Extension to modify HTTP(s) Requests
 logo: site-logo.png
 search: true
 env: prod
-baseurl: /public
+baseurl: /blog
 url: http://requestly.github.io
 chrome_store_url: http://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa
 
