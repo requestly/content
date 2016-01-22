@@ -9,19 +9,19 @@ comments: true
 share: true
 ---
 
-You can now Activate/Deactivate requestly with your right click anywhere on any page.
+You can Activate/Deactivate requestly with your right click on requestly icon present on Chrome toolbar.
 If you deactivate Requestly, your rules won't be affected but they won't be executed anymore.
 Similarly, When you activate Requestly, your active rules will get starting to execute.
 
 ## How to use
 
-You can use *Right click* on any page to see the option to deactivate requestly.
+You can use *Right click* on requestly icon in toolbar to see the option to deactivate requestly.
 When requestly is deactivated, same option converts to activate requestly.
 
 <figure>
   <center>
 	  <img src="{{ site.baseurl }}/images/deactivate-option-in-menu.png" alt="image">
-    <figcaption>Snapshot of right click context menu on google.com</figcaption>
+    <figcaption>Snapshot of right click context menu</figcaption>
   </center>
 </figure>
 
@@ -60,5 +60,5 @@ Once User deactivates Requestly, this information is stored inside `chrome.sync.
 So if User has deactivated Requestly on one machine, it would automatically deactivate on other synced Chrome browsers.
 
 ## Links
-- [Requestly Github Repo](http://github.com/blunderboy/requestly){:target='_blank'}
+- [Requestly Github Repo](https://github.com/requestly/chrome-extension){:target='_blank'}
 - [Requestly on Chrome Store](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa){:target='_blank'}
