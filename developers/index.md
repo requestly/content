@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Requestly Developers
+title: Developer Section
 excerpt: ""
 search_omit: true
 ---
