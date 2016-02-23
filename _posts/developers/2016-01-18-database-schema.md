@@ -4,11 +4,11 @@ title: "Data Storage and Schema"
 modified:
 categories: developers
 sample: false
-excerpt:
+excerpt: "How Shared Lists are stored in Firebase"
 tags: []
 image:
   feature:
-date: 2016-01-20T15:39:55+05:30
+date: 2016-01-20T15:39:55 +05:30
 ---
 
 Requestly is using `StorageService` - A wrapper over chrome storage to store rules. 
