@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Storage and Schema
+title: "Data Storage and Schema"
 modified:
 categories: developers
 sample: false
