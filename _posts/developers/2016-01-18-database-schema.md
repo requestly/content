@@ -34,34 +34,30 @@ After above analysis, Firebase is chosen to serve as data storage.
 
 Following is the data schema thought so far:
 
-{% highlight js %}
+{% highlight text %}
+ 
   requestly
-    Users
-      $userId
-        Collections
-          $collection_1
-            Groups
-              $group_1
-                Rules
-                  $rule_1
-                  $rule_2
-                  ...
-              $group_N
-                Rules
-                  $rule_1
-        SharedLists
-          $listName_1
-          $listName_n
-    Public
-      SharedLists
-        $listName_1
-          Rules
-            $rule_1
-            $rule_2
-        
+    |- users
+      |- collections
+        |- collection-0
+          |- groups
+        |- collection-N
+      |- sharedLists
+        |- shareId
+          |- listName
+          |- creationDate
+          |- shareId
+    |- public
+      |- sharedLists
+        |- shareId
+        |- access
+          |- owner
+        |- isEnabled
+        |- rules
+          |- rule-0
+          |- rule-1
+  
 {% endhighlight %}
-
-Every field prefixed with `$` is User provided value.
 
 ## Design Description
 Above database schema allows us to do the following:
