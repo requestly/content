@@ -35,7 +35,7 @@ exclude: ["misc", "docs", "lib", "config.rb", "Capfile", "config", "log", "Rakef
 owner:
   name: Sachin Jain
   avatar: bio-photo-sachin.jpg
-  email: sachinjain024@gmail.com
+  email: sachinjain024+requestly@gmail.com
   disqus-shortname: requestly
   twitter: #sachinjain024
   facebook: #sachinjain024
@@ -46,6 +46,9 @@ owner:
     plus: #sachinjain024
     analytics: UA-46800996-6
     verify: idvviOvIG9sX9uNLRSYO73bMYgD5nI9Mdk8QJOjS7cA
-    ad-client:
-    ad-slot:
+    ad-client: ca-pub-4094829842104560
+    ad-slot: 3296823134
   bing-verify:
+
+# Site-wide Configuration
+displayAds: true
