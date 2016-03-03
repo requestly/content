@@ -6,9 +6,9 @@ categories: developers
 sample: false
 excerpt: "How Shared Lists are stored in Firebase"
 tags: []
-image:
-  feature:
 date: 2016-01-20T15:39:55 +05:30
+comments: true
+share: true
 ---
 
 Requestly is using `StorageService` - A wrapper over chrome storage to store rules. 
