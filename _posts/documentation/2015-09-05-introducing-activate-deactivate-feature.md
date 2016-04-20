@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Introducing De-Activate Feature"
+title: "Deactivate Requestly Feature"
 excerpt: "What is meant by Deactivating Requestly and How to use it"
-categories: articles
+categories: documentation
 sample: false
 tags: [Requestly, Features, Help, Usage, FAQ]
 comments: true

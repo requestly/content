@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Developer Section
+title: Documentation
 excerpt: ""
 search_omit: true
 ---
