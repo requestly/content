@@ -16,3 +16,10 @@ Added _config_dev.yml to override properties in _config.yml. We can run jekyll l
 
 In Dev environment we can specify some config which will override the default config.
 
+### Tips
+
+#### Add Table Of Contents:
+
+    * Table of Contents
+    {:toc}
+
