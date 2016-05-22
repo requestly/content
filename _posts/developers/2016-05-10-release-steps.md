@@ -19,7 +19,7 @@ share: true
 4. Run Unit tests - `grunt test`
 5. Update version number in `Shared.js, manifest.json, package.json, Gruntfile.json`
 6. Run build command - `grunt build`
-7. Upload the build to [Chrome Store](chrome.google.com/webstore/developer/dashboard)
+7. Upload the build to [Chrome Store](https://chrome.google.com/webstore/developer/dashboard)
 8. Commit the files - `git add . && git commit -m "Requestly va.b.c released"`
 9. Push to production branch - `git push origin production`
 10. Add tag - `git tag -a va.b.c`
