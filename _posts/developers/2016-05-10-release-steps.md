@@ -13,17 +13,18 @@ share: true
 
 ## Steps
 
-1. Checkout `production` branch - `git checkout production`
-2. Merge master branch to it - `git merge master`
-3. Run Unit tests - `grunt test`
-4. Update version number in `Shared.js, manifest.json, package.json, Gruntfile.json`
-5. Run build command - `grunt build`
-6. Upload the build to [Chrome Store](chrome.google.com/webstore/developer/dashboard)
-7. Commit the files - `git add . && git commit -m "Requestly va.b.c released"`
-8. Push to production branch - `git push origin production`
-9. Add tag - `git tag -a va.b.c`
-10. Push the tags - `git push --tags origin`
-11. Merge to master - `git checkout master && git merge production`
+1. Checkout master branch and fetch it `git checkout master && git pull origin master`
+2. Checkout `production` branch - `git checkout production && git pull origin production`
+3. Merge master branch to it - `git merge master`
+4. Run Unit tests - `grunt test`
+5. Update version number in `Shared.js, manifest.json, package.json, Gruntfile.json`
+6. Run build command - `grunt build`
+7. Upload the build to [Chrome Store](chrome.google.com/webstore/developer/dashboard)
+8. Commit the files - `git add . && git commit -m "Requestly va.b.c released"`
+9. Push to production branch - `git push origin production`
+10. Add tag - `git tag -a va.b.c`
+11. Push the tags - `git push --tags origin`
+12. Merge to master - `git checkout master && git merge production`
 
 ## Notes
 
