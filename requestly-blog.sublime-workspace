@@ -295,6 +295,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "_posts/articles/2015-07-01-iframe-busting-header.md",
+			"settings":
+			{
+				"buffer_size": 5684,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/articles/2016-07-04-download-youtube-videos-trick.md",
+			"settings":
+			{
+				"buffer_size": 2090,
+				"line_ending": "Unix",
+				"name": "---"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -345,10 +362,13 @@
 	},
 	"expanded_folders":
 	[
-		"/home/sachin/personal/repo/requestly/requestly-blog"
+		"/home/sachin/personal/repo/requestly/requestly-blog",
+		"/home/sachin/personal/repo/requestly/requestly-blog/_posts",
+		"/home/sachin/personal/repo/requestly/requestly-blog/images"
 	],
 	"file_history":
 	[
+		"/home/sachin/personal/repo/requestly/requestly-blog/_posts/articles/2015-07-01-iframe-busting-header.md",
 		"/home/sachin/personal/repo/scripts/toolsSetup",
 		"/home/sachin/personal/repo/scripts/alias.sh",
 		"/home/sachin/personal/repo/scripts/mcdp/mcdpSetup",
@@ -475,8 +495,7 @@
 		"/home/sachin/work/git/tsdk/tsdk-ui/tsdk-aem-clientlib-content/pom.xml",
 		"/home/sachin/work/git/tsdk/example/index.html",
 		"/home/sachin/work/git/tsdk/example/index4.html",
-		"/home/sachin/work/git/tsdk/example/index3.html",
-		"/home/sachin/work/git/tsdk/example/fresh.html"
+		"/home/sachin/work/git/tsdk/example/index3.html"
 	],
 	"find":
 	{
@@ -660,8 +679,70 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "_posts/articles/2015-07-01-iframe-busting-header.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 5684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								620,
+								620
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_posts/articles/2016-07-04-download-youtube-videos-trick.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2090,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1653,
+								1653
+							]
+						],
+						"settings":
+						{
+							"auto_name": "---",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 140.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -978,7 +1059,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 233.0,
+	"side_bar_width": 302.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

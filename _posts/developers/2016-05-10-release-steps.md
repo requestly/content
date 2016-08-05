@@ -20,11 +20,12 @@ share: true
 5. Update version number in `Shared.js, manifest.json, package.json, Gruntfile.json`
 6. Run build command - `grunt build`
 7. Upload the build to [Chrome Store](https://chrome.google.com/webstore/developer/dashboard)
-8. Commit the files - `git add . && git commit -m "Requestly va.b.c released"`
-9. Push to production branch - `git push origin production`
-10. Add tag - `git tag -a va.b.c`
-11. Push the tags - `git push --tags origin`
-12. Merge to master - `git checkout master && git merge production`
+8. Delete the earliest build. We want to keep only 3 previous builds.
+9. Commit the files - `git add . && git commit -m "Requestly va.b.c released"`
+10. Push to production branch - `git push origin production`
+11. Add tag - `git tag -a va.b.c`
+12. Push the tags - `git push --tags origin`
+13. Merge to master - `git checkout master && git merge production`
 
 ## Notes
 

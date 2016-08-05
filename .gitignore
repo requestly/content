@@ -4,3 +4,5 @@ _site
 node_modules/
 *.iml
 .DS_Store
+*.sublime-workspace
+requestly-blog.sublime-workspace
