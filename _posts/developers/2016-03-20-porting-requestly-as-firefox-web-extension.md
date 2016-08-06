@@ -41,7 +41,8 @@ has made the job easy. This article is the first step in direction for porting R
     - In Firefox requests can be redirected only if their original URL uses the http or https scheme
 8. **Manifest**: [Firefox manifest.json] has mandatory `applications` key and we can't use this in chrome extensions.
     - We need to maintain two different manifest files for chrome and browser and build system should pick them as per browser.
-9. **Context Menus**: Fully Supported 
+9. **Context Menus**: [Partially supported](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/contextMenus#Chrome_incompatibilities). `page_action` and `browser_action` are not supported.
+	- We need to change `browser_action` to `all` for the time this is supported in firefox.
     
 For More details, Refer [Mozilla documentation on chrome APIs Incompatibilities](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Chrome_incompatibilities)    
 
