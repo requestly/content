@@ -48,6 +48,6 @@ Requestly reserves the right to change this policy for any reason, and may make 
 Each time this policy is changed we will revise the "Effective Date" at the top of this page. 
 
 #### Contact
-You can always contact us with questions or feedback about our privacy policy on email `sachinjain024 + requestly - gmail.com`.
+You can always contact us with questions or feedback about our privacy policy on email `requestly dot extension - gmail.com`.
 
 
