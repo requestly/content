@@ -4,7 +4,7 @@ title: Requestly Privacy Policy
 excerpt: "Privacy Policy"
 ---
 
-<h5>Effective Date: May 1, 2016</h5>
+<h5>Effective Date: Nov 4, 2016</h5>
 
 This Privacy Policy describes Requestly's information practices for its website and browser extension. 
 We take your privacy seriously and want you to understand exactly what information we collect, 
@@ -25,8 +25,9 @@ However Requestly website does not collect any sort of personal information.
 *Anonymous information*
 
 The Requestly extension captures anonymous usage information, including but not limited to: current version of the extension, 
-creation, modification and deletion of rule. We just capture an event like "Redirect Rule created" 
-but we do not capture what is the definition of rule.
+creation, modification and deletion of rule. We just capture an event like "Redirect Rule created"
+but we do not capture what is the definition of rule. Along with this, Requestly tend to capture some pixels used on various websites.
+Please note all such data is captures anonymously and no user level data is gathered.
 
 *Analytics*
 
