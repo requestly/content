@@ -28,8 +28,8 @@ share: true
 - Copy artifcat to build directory - `cp -r web-ext-artifacts/* builds/web-ext-artifacts/`
 - Remove directory created by sign command - `rm -rf web-ext-artifacts`
 - Copy the new artifact to dropbox (We currently host firefox builds on dropbox. We will change this to requestly server later)
+- Copy the new artifact to dropbox with name requestly-latest.xpi (This is linked on requestly home page)
 - Update updates.json inside dropbox directory
-- Update firefox download link on requestly home page
 - Commit the files - `git add . && git commit -m "Requestly va.b.c released"`
 - Push to production branch - `git push origin production`
 - Add tag - `git tag -a va.b.c`
