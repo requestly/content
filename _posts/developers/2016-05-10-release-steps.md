@@ -21,12 +21,7 @@ share: true
 - Run build command - `grunt release-chrome`
 - Upload the build to [Chrome Store](https://chrome.google.com/webstore/developer/dashboard)
 - Delete the earliest build. We want to keep only 3 previous builds.
-- Run build command - `grunt select-firefox`
-- Create an alias if not already done like this. Write it inside ~/.bashrc
-- alias sign_requestly_build="web-ext sign --api-key=??? --api-secret=???"
-- Run command - `sign_requestly_build`
-- Copy artifcat to build directory - `cp -r web-ext-artifacts/* builds/web-ext-artifacts/`
-- Remove directory created by sign command - `rm -rf web-ext-artifacts`
+- Run command - `./release-firefox.sh`
 - Copy the new artifact to dropbox (We currently host firefox builds on dropbox. We will change this to requestly server later)
 - Copy the new artifact to dropbox with name requestly-latest.xpi (This is linked on requestly home page)
 - Update updates.json inside dropbox directory
