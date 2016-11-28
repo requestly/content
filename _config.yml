@@ -7,7 +7,7 @@ logo: site-logo.png
 search: true
 env: prod
 url: http://requestly.in
-baseurl: /blog
+baseurl: /content
 chrome_store_url: http://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa
 
 # Jekyll configuration
