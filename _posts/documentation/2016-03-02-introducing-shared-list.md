@@ -77,10 +77,10 @@ Modify them and create a new shared list.</div>
 
 <div>
   <strong> Q: I want to reach out to you for more questions ? </strong>
-  <div> Please feel free to open Github Issue. You can also reach out to me sachinjain024 [plus] requestly [at] gmail [dot] com.</div> 
+  <div> Please feel free to open Github Issue. You can also reach out to me requestly [dit] extension [at] gmail [dot] com.</div>
   <br/>
 </div>
 
 ## Links
-- [Requestly Github Repo](https://github.com/requestly/chrome-extension){:target='_blank'}
+- [Requestly Github Repo](https://github.com/requestly/requestly-issues){:target='_blank'}
 - [Requestly on Chrome Store](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa){:target='_blank'}
