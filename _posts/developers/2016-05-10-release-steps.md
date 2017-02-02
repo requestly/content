@@ -22,12 +22,12 @@ share: true
 - Upload the build to [Chrome Store](https://chrome.google.com/webstore/developer/dashboard)
 - Delete the earliest build. We want to keep only 3 previous builds.
 - Run command - `./release-firefox.sh`
-- Copy the new artifact to dropbox (We currently host firefox builds on dropbox. We will change this to requestly server later)
-- Copy the new artifact to dropbox with name requestly-latest.xpi (This is linked on requestly home page)
+- Copy the new artifact to static-content repo (We currently host firefox builds on firebase)
+- Copy the new artifact to dropbox with name and as requestly-latest.xpi (This is linked on requestly home page)
 - Update updates.json inside dropbox directory
 - Commit the files - `git add . && git commit -m "Requestly va.b.c released"`
 - Push to production branch - `git push origin production`
-- Add tag - `git tag -a va.b.c`
+- Add tag - `git tag -a va.b.c` -m `Requestly va.b. released`
 - Push the tags - `git push --tags origin`
 - Merge to master - `git checkout master && git merge production`
 
