@@ -55,8 +55,8 @@ function initSearch() {
         execSearch(q);
     }
 
-    // Get search results on submission of form
-    $(document).on("submit", $searchForm, function(e) {
+    $searchForm.submit(function(e) {
+      console.log('reached here');
         e.preventDefault();
         q = $searchInput.val();
         execSearch(q);
