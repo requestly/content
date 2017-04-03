@@ -6,6 +6,13 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
 {% endif %}
 
+<!-- Iframe busting script -->
+<script>
+  if (window.top != window.self) {
+    top.location = self.location;
+  }
+</script>
+
 {% include open-graph.html %}
 
 {% if site.owner.google.verify %}<!-- Webmaster Tools verfication -->
