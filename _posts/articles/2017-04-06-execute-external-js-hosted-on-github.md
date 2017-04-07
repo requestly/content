@@ -26,7 +26,7 @@ with the following contents:
 We found that Github sends `X-Content-Type-Options` response header which prevents modern browsers to estimate the mime type of content.
 Hence, browsers render the raw github files as plain text.
 
-## Solution
+## Solution 1
 
 Using [Requestly](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa), Users can modify request and response headers.
 We tried removing `X-Content-Type-Options` response header using Requestly which did the trick. Just as simple as that.
@@ -54,6 +54,31 @@ Here is a screenshot of the rule:
 5. Give a Name and Descripton
 6. Select `Remove` -> `Response` -> `X-Content-Type-Options`
 7. In Source field, enter `Url` -> `Contains` -> `raw.githubusercontent.com`
+
+## Solution 2
+
+Using [Requestly](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa), Users can
+setup rule to replace host or actually anything in URL. [RawGit](https://rawgit.com) is an online service which removes this
+header and adds a mimetype for the files.
+
+<figure>
+	<img src="{{ site.baseurl }}/images/articles/replace-host-rawgit.png" alt="image">
+  <figcaption>
+    <center>
+      <a href="http://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa"
+        title="Using Requestly to replace raw.githubusercontent.com with rawgithub.com">
+        Using Requestly to replace raw.githubusercontent.com with rawgithub.com
+      </a>.
+    </center>
+  </figcaption>
+</figure>
+
+## Steps
+
+1. Install Requestly from [http://www.requestly.in](http://www.requestly.in)
+2. Go to [Rules Page](http://www.requeslty.in/rules)
+3. Click on Add Icon to create a replace rule
+4. Replace raw.githubusercontent.com with rawgit.com
 
 ## How to test
 
