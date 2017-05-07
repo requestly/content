@@ -143,6 +143,34 @@ Add `source` object inside each rule pairs and `version` field in rule.
   
 {% endhighlight %}
 
+## User-Agent Rule Format
+
+{% highlight js %}
+ 
+  user_agent_rule = {
+    "creationDate": 1494081686203,
+    "description": "Load android mobile version of facebook website",
+    "id": "UserAgent_1494081686203",
+    "name": "facebook in android mobile",
+    "pairs": [
+      {
+        "env": "android.phone",
+        "envType": "device", // envType=device|browser|custom
+        "source": {
+          "key": "Url",
+          "operator": "Contains",
+          "requestType": "mainFrame", // requestType=mainFrame|pageRequest
+          "value": "facebook.com"
+        },
+        "userAgent": "Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Mobile Safari/537.36"
+      }
+    ],
+    "ruleType": "UserAgent",
+    "status": "Active"
+  }
+  
+{% endhighlight %}
+
 ### Notes:
 1. status field inside pairs is not used now.
 2. Empty value in source means it is ignored and rule can apply to any Url.
