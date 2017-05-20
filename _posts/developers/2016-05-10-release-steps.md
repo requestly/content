@@ -33,6 +33,14 @@ share: true
 - Push the tags - `git push --tags origin`
 - Merge to master - `git checkout master && git merge production`
 - Push master - `git push origin master`
+- Build Notifications Json and test it on dev machine
+
+## How to Test Notifications on dev box
+- Copy the new notifications to [myjson.com](http://myjson.com/) and save it
+- Go to `PushNotificationsCollection.js` and update url to one obtained in above step
+- Check the notifications in your rules page
+- If the notifications look fine, change the url back to original in `PushNotificationsCollection.js`
+- Otherwise fix the notifications json and repeat above steps
 
 ## Notes
 
