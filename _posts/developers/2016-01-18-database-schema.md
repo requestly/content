@@ -4,6 +4,7 @@ title: "Data Storage and Schema"
 modified:
 categories: developers
 sample: false
+developerPost: true
 excerpt: "How Shared Lists are stored in Firebase"
 tags: []
 date: 2016-01-20T15:39:55 +05:30

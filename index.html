@@ -8,7 +8,7 @@ search_omit: true
 <ul class="post-list">
 {% for post in site.posts limit:50 %}
   {% if post.sample and site.showSample != true %} {% continue %} {% endif %}
-  {% if post.categories == developers %} {% continue %} {% endif %}
+  {% if post.developerPost %} {% continue %} {% endif %}
   <li>
     <article>
       <a href="{{ site.baseurl }}{{ post.url }}">

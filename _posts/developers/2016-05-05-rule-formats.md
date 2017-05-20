@@ -3,6 +3,7 @@ layout: post
 title: "Rules Json Format"
 modified:
 categories: developers
+developerPost: true
 sample: false
 excerpt: "Format of different rule types stored in database"
 tags: []

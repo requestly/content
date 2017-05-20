@@ -3,6 +3,7 @@ layout: post
 title: "Porting Requestly to Firefox as Web Extension"
 modified:
 categories: developers
+developerPost: true
 sample: false
 excerpt: "Analysis of different chrome.extension.* APIs used in Requestly and incompatibilities in Web Extension"
 tags: []

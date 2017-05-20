@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Requestly release process"
-modified:
+modified: 2017-05-19T18:03:30 +05:30
 categories: developers
+developerPost: true
 sample: false
 excerpt: "Steps for building Requestly to deploy on Chrome Store"
 tags: []
